@@ -11,6 +11,10 @@
 		883A02752774D04500317403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A02742774D04500317403 /* ContentView.swift */; };
 		883A02772774D04600317403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A02762774D04600317403 /* Assets.xcassets */; };
 		883A027A2774D04600317403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A02792774D04600317403 /* Preview Assets.xcassets */; };
+		883A02822774D62300317403 /* RestaurantAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883A02802774D62300317403 /* RestaurantAssets.xcassets */; };
+		883A02832774D62300317403 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A02812774D62300317403 /* RestaurantItem.swift */; };
+		885EE76A277608060045C510 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EE769277608060045C510 /* MapView.swift */; };
+		885EE76C27760CC00045C510 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885EE76B27760CC00045C510 /* RestaurantDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		883A02742774D04500317403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		883A02762774D04600317403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883A02792774D04600317403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		883A02802774D62300317403 /* RestaurantAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RestaurantAssets.xcassets; sourceTree = "<group>"; };
+		883A02812774D62300317403 /* RestaurantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		885EE769277608060045C510 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		885EE76B27760CC00045C510 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		883A02712774D04500317403 /* RogavaLetsEatSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				883A02802774D62300317403 /* RestaurantAssets.xcassets */,
+				883A02812774D62300317403 /* RestaurantItem.swift */,
 				883A02722774D04500317403 /* RogavaLetsEatSwiftUIApp.swift */,
 				883A02742774D04500317403 /* ContentView.swift */,
+				885EE769277608060045C510 /* MapView.swift */,
+				885EE76B27760CC00045C510 /* RestaurantDetail.swift */,
 				883A02762774D04600317403 /* Assets.xcassets */,
 				883A02782774D04600317403 /* Preview Content */,
 			);
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883A02822774D62300317403 /* RestaurantAssets.xcassets in Resources */,
 				883A027A2774D04600317403 /* Preview Assets.xcassets in Resources */,
 				883A02772774D04600317403 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				883A02752774D04500317403 /* ContentView.swift in Sources */,
+				885EE76A277608060045C510 /* MapView.swift in Sources */,
+				883A02832774D62300317403 /* RestaurantItem.swift in Sources */,
+				885EE76C27760CC00045C510 /* RestaurantDetail.swift in Sources */,
 				883A02732774D04500317403 /* RogavaLetsEatSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
